@@ -9,7 +9,7 @@ module DeleteABFLayout
       ex.description = 'Delete ABF layout from SketchUp model.'
       ex.version     = '1.0.0'
       ex.copyright   = 'Ivanka.com.ua'
-      ex.creator     = 'Meetda'
+      ex.creator     = 'Meetda (https://Ivanka.com.ua)'
       Sketchup.register_extension(ex, true)
       file_loaded(__FILE__)
     end
